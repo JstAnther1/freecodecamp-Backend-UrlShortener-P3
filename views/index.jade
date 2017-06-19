@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  p.titling1
+    strong MrUnk's RESTful API TimeStamp
+  p.titling2 
+    strong Conditions: 
+
+  ul.mar1
+    li Pass a URL as a parameter and a shortened URL in response
+    li If an invalid URL format is entered, reponds as an error
+    li URL responses are linked to their respective pages
+  
+  p.titling2 
+    strong Example Usage: 
+
+  ul.mar2
+    li.mar3 localhost:3000/api/new/https://google.com
+    li.mar3 localhost:3000/api/new/http://yahoo.com
+
+  p.titling2 
+    strong Example Output: 
+
+  ul.mar2 
+    li.mar3 {"APIIndexPage":"https://secure-ridge-541.herokuapp.com","URL":"http://yahoo.com"}

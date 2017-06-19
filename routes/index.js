@@ -23,11 +23,6 @@ http:// that is going to be entered as the start of another website you are goin
         APIIndexPage: "https://secure-ridge-541.herokuapp.com",
         URL: secndURL
       };
-    } else if(secndURL.slice(0,4)=="www." && secndURL.includes(".com")){
-      var url_data ={
-        APIIndexPage: "https://secure-ridge-541.herokuapp.com",
-        URL: secndURL
-      };
     } else {
       var url_data ={
         APIIndexPage: "error",
